@@ -1,0 +1,23 @@
+.oedo-box {
+  /* background-color: #ac277e; */
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 22px #ac277e;
+}
+
+
+.oedo-txt {
+  color: #221815;
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}

@@ -1,0 +1,22 @@
+.jr-box {
+  background-color: #238e3e;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jr-txt {
+  color: #e4ede5;
+  /* background-color: aqua; */
+  margin: auto;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
