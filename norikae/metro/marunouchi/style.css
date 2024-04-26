@@ -1,16 +1,16 @@
-.keisei-box {
+.marunouchi-box {
   /* background-color: #ac277e; */
-  width: 66px;
-  height: 66px;
+  width: 56px;
+  height: 56px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 17px #1b6cb4;
+  border: solid 22px #f52c33;
 }
 
 
-.keisei-txt {
+.marunouchi-txt {
   color: #221815;
   margin: auto;
   text-align: center;
