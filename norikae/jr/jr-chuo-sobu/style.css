@@ -1,0 +1,21 @@
+.jr-chuo-sobu-box {
+  /* background-color: #ac277e; */
+  width: 60px;
+  height: 60px;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 20px #ffec08;
+}
+
+
+.jr-chuo-sobu-txt {
+  color: #221815;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
