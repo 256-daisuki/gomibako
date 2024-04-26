@@ -1,0 +1,21 @@
+.ginza-box {
+  /* background-color: #ac277e; */
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 22px #ff9500;
+}
+
+
+.ginza-txt {
+  color: #221815;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
