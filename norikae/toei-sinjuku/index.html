@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>都営新宿線乗り換え情報</title>
+  <style>
+
+    .station_box {
+      bottom: 0px;
+      margin: 100px;
+      width: 56px;
+      height: 180px;
+      border: solid 5px aqua;
+    }
+
+    .station_num {
+      width: 40px;
+      height: 60px;
+      border-radius: 20%;
+      border: solid 8px #b0c124;
+      font-size: 20px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .station_name {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      -ms-writing-mode: tb-rl;
+      writing-mode: vertical-rl;
+    }
+
+    .station_name_jp {
+      line-height: 0.3;
+      margin: auto;
+      font-size: 30px;
+    }
+
+    .station_name_en {
+      margin: auto;
+      font-size: 15px;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="station_box">
+    <div class="station_name">
+      <b class="station_name_jp">新宿</b>
+      <p class="station_name_en"><sub>Shinjuku</sub></p>
+    </div>
+    <div class="station_num">
+      <p><b>S<br>01</b></p>
+    </div>
+    <ul>
+      <li><iframe src="file:///C:/git/gomibako/norikae/icon/toei/oedo/index.html" frameborder="0" height="30px" width="30px"></iframe></li>
+      <li><iframe src="file:///C:/git/gomibako/norikae/icon/jr/jr/index.html" frameborder="0"></iframe></li>
+      <li><iframe src="file:///C:/git/gomibako/norikae/icon/odakyu/index.html" frameborder="0"></iframe></li>
+    </ul>
+  </div>
+  
+
+</body>
+</html>
